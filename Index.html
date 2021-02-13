@@ -1,0 +1,54 @@
+     <html>
+
+<head>
+
+<title>Hello</title>
+
+  </head>
+
+<body>
+
+  <div class="main">
+
+    <button class="button">articles</button>
+
+    <div class="dropdown">
+
+      <ul>
+
+        <li><a  href="" > articles1</a></a></li>
+
+        <li><a  href="" > articles2</a></a></li>
+
+        <li><a  href="" > articles3</a></a></li>
+
+        <li><a  href="" > articles4</a></a></li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+  <script>
+
+    var button = document.querySelector(".button");
+
+    button.addEventListener("click",show);
+
+    function show(){
+
+    var list = document.querySelector(".dropdown");
+
+    list.classList.toggle("active");
+
+    }
+
+  </script>
+
+</body>
+
+</html>
+
+                        
+
